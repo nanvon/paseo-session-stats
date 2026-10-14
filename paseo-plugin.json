@@ -1,0 +1,8 @@
+{
+  "id": "session-stats",
+  "name": "Session stats",
+  "description": "在输入框旁显示输出速度、首字时间和缓存命中率，浮层里有详细数据和快捷发送按钮",
+  "requirements": {
+    "paseo": ">=0.11.0"
+  }
+}

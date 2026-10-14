@@ -1,0 +1,32 @@
+{
+  "name": "paseo-session-stats",
+  "version": "0.1.0",
+  "description": "Paseo 插件：在输入框旁显示输出速度、首字时间和缓存命中率，浮层里有详细数据和 OK、Commit、Commit & Push、Publish 快捷按钮",
+  "private": true,
+  "type": "module",
+  "author": "nanvon",
+  "license": "MIT",
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "index.client.tsx",
+    "index.server.ts",
+    "client/",
+    "server/",
+    "shared/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/client": "0.11.2",
+    "@getpaseo/plugin": "0.11.2",
+    "@getpaseo/protocol": "0.11.2",
+    "@types/node": "^20.9.0",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}
